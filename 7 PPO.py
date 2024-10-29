@@ -6,7 +6,6 @@ from stable_baselines3.common.env_util import (
 )  # Import the environment utility function
 from gymnasium.wrappers.filter_observation import FilterObservation
 from gymnasium.wrappers.flatten_observation import FlattenObservation
-import signal
 
 model = PPO.load("PPO-SinglePendulum")
 
